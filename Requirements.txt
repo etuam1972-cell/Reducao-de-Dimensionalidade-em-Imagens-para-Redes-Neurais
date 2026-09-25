@@ -1,0 +1,36 @@
+
+---
+
+# ATENCAO: o algoritmo (conversor.py) NAO usa nenhuma
+# biblioteca externa. Ele roda apenas com a biblioteca padrao
+# do Python (modulos built-in).
+#
+# Portanto, NAO e necessario executar `pip install -r requirements.txt`
+# para rodar o projeto.
+#
+# Este arquivo lista apenas ferramentas OPCIONAIS de conversao
+# de formato de imagem, que podem ser usadas para preparar a entrada PPM (P3).
+# =========================================================
+
+# --- Python ---
+# Requer Python 3.8+
+# Nenhuma dependencia pip obrigatoria.
+
+# --- Conversao de formato de imagem (opcional) ---
+#
+# ImageMagick: converte JPG/PNG -> PPM
+# Instale via gerenciador de pacotes do sistema, nao via pip.
+#
+#   Ubuntu/Debian:  sudo apt install imagemagick
+#   macOS:          brew install imagemagick
+#   Windows:        [imagemagick.org](https://imagemagick.org/script/download.php)
+#
+# Exemplo de uso:
+#   magick noite_estrelada.jpg -compress none noite_estrelada.ppm
+
+# --- Dependencias pip opcionais (NAO requeridas pelo algoritmo) ---
+# Descomente apenas se quiser usar scripts auxiliares de
+# visualizacao/validacao. O conversor em si NAO as utiliza.
+
+# Pillow>=10.0.0
+# numpy>=1.24.0
