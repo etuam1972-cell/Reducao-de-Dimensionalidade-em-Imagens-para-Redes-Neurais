@@ -210,7 +210,7 @@ binario = cinza_para_binario(pixels_cinza, limiar=128)  # 0–255
 
 ## 📸 Resultados
 
-> 📌 Adicione aqui capturas de tela das três etapas do pipeline.
+> 📌 ![Dashboard](./10.png)
 
 ```
   ORIGINAL (RGB)         TONS DE CINZA          BINÁRIA
